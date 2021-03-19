@@ -16,8 +16,8 @@ from google.cloud import translate_v2 as translate
 
 logToConsole = lambda string: print(f'[{datetime.now().strftime("%H:%M:%S")}] {string}') 
  
-# with open("TOKEN", 'r') as file:
-BOT_TOKEN = "1642345795:AAGxcTISCcjfVr0qY1awD2ryPuVRY5Vyy0c"
+with open("TOKEN", 'r') as file:
+    BOT_TOKEN = file.read()
 updater = Updater(token=BOT_TOKEN, use_context=True)
 bot = Bot(token=BOT_TOKEN)
 logToConsole("Bot started.")  
