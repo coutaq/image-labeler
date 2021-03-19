@@ -1,6 +1,6 @@
 {
     "en" : {
-        "start" : "A bot for converting images to a pdf file.\nTo start, send an image or an album.\nMade by @coutaq.",
+        "start" : "A bot for getting translated labels and text from images.\nTo start, send an image.",
         "nameSet": "Your file in now called",
         "deleted": "File deleted.",
         "noFilenameError": "Please specify a name :)",
@@ -10,10 +10,12 @@
         "unknown": "Sorry, I didn't understand that command.",
         "fileNotInitiatedError" : "You must first upload an image.",
         "pdfEmptyError": "Empty pdf!",
-        "uploadingError": "Upload failed!"
+        "uploadingError": "Upload failed!",
+        "text": "Text:",
+        "labels": "Labels:"
   },
     "ru" : {
-        "start" : "Бот для создания pdf из картинок.\nЧтобы начать, отправьте фото или альбом.\nMade by @coutaq.",
+        "start" : "Бот для извлечения и перевода текста из картинок.\nЧтобы начать, отправьте фото.\n",
         "nameSet": "Ваш файл теперь называется",
         "deleted": "Файл был удален.",
         "noFilenameError": "Напишите название файла :)",
@@ -23,19 +25,8 @@
         "unknown": "Извините, я такое не умею.",
         "fileNotInitiatedError" : "Перед использованием этой команды, нужно загрузить фото.",
         "pdfEmptyError": "Пустой документ!",
-        "uploadingError": "Не удалось отправить документ!"
-  },
-   "uk" : {
-        "start" : "Бот для створення pdf з картинок.\nДля того щоб розпочати, отправьте фото чи альбом.\nMade by @coutaq, translated by @Imllush.",
-        "nameSet": "Ваш файл теперь называется",
-        "deleted": "Файл был удален.",
-        "noFilenameError": "Напишите название файла :)",
-        "upload" : "Это команда устарела. Для создания документа, просто отправьте ваше фото, после чего используйте \n/create <название>!",
-        "success": "Картинка завантажена!",
-        "sending": "Відправляю .pdf!",
-        "unknown": "Вибачте, я таке не вмію.",
-        "fileNotInitiatedError" : "Перед використанням цієї команди, потрібно завантажити фото.",
-        "pdfEmptyError": "Пустий документ!",
-        "uploadingError": "Не вдалося відправити документ!"
+        "uploadingError": "Не удалось отправить документ!",
+        "text": "Текст:",
+        "labels": "Изображение содержит:"
   }
 }
