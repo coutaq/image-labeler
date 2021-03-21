@@ -2,5 +2,6 @@
   "cmake.configureOnOpen": false,
   "files.exclude": {
     "TOKEN": true
-  }
+  },
+  "python.pythonPath": "C:\\Users\\Michael\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
 }
