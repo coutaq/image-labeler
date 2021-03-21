@@ -4,6 +4,7 @@ import numpy as np
 # load the image from disk
 image = cv2.imread("img4.jpg")
 
+
 # convert the image to grayscale and flip the foreground
 # and background to ensure foreground is now "white" and
 # the background is "black"
